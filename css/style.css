@@ -161,3 +161,49 @@ body {
     font-size: 1.8rem;
   }
 }
+
+/* CONTENT */
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.content h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* CONTACT CARD */
+.contact-card {
+  background: var(--bg-card);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  max-width: 400px;
+  width: 100%;
+}
+
+.contact-card p {
+  margin: 15px 0;
+  font-size: 1.1rem;
+}
+
+.contact-card a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.contact-card a:hover {
+  text-decoration: underline;
+}
+
+/* ACTIVE LINK */
+.nav a.active {
+  color: var(--accent);
+}
+
