@@ -1,0 +1,45 @@
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: #f4f4f4;
+}
+
+
+.header {
+background: #0d6efd;
+color: white;
+padding: 15px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+
+.header a {
+color: white;
+margin-left: 15px;
+text-decoration: none;
+}
+
+
+.hero {
+padding: 60px;
+text-align: center;
+}
+
+
+button {
+padding: 10px 20px;
+border: none;
+background: #0d6efd;
+color: white;
+cursor: pointer;
+}
+
+
+footer {
+background: #222;
+color: white;
+text-align: center;
+padding: 10px;
+}
